@@ -1,6 +1,10 @@
-# untitled2
+# Flutter Shoping App
 
-A new Flutter project.
+![image](https://user-images.githubusercontent.com/99716076/231257739-c273209f-b878-4fc3-8347-ba818154f046.png)
+
+
+![image](https://user-images.githubusercontent.com/99716076/231257641-9dd05c8a-6fa7-49c8-9750-00c4cb1983bb.png)
+
 
 ## Getting Started
 
