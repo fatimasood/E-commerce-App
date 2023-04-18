@@ -1,48 +1,36 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-
 import 'FoodItemWidget.dart';
 
-class FoodMenu extends StatelessWidget {
+class ItalianMenu extends StatelessWidget {
   List<FoodItemWidget> foodItems = [
     FoodItemWidget(
-        name: 'Biryani',
-        description: 'Single Chicken Biryani',
-        price: 250,
+        name: 'Pizza',
+        description: 'Italian Margherita Pizza ',
+        price: 500,
         imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQ5UbJd5iFwH90vntQGspeg2Coe8BAIzCW5ZWE6XovW116gEqlaNpbVvjNjlBtu0im1I&usqp=CAU'),
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRr8OxGMDEkiN8RbPXDCLllmPY20Fok18B5bCGfwFOzIrSVCgUqyDjac0wyLLb8DzKtbQ&usqp=CAU'),
     FoodItemWidget(
-        name: 'Nihari',
-        description: 'Delicious Beef Nihari',
-        price: 300,
+        name: 'Risotto ',
+        description: 'Delicious Flavorful Creamy Risotto',
+        price: 600,
         imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjuWR1MtPZv8przRJuxCC2Htkri1Zt7eTB2x5zdJBRx-AbuI5-Rre4VDL_EmPMGZphS6Y&usqp=CAU'),
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOTh4Zx6W4BcaBChEReQU3rSnEpP_UZwsXWhCqYasjU518tecnp84W_mva8w8pdhe8bE&usqp=CAU'),
 
     FoodItemWidget(
-        name: 'Karahi',
-        description: 'Tasty Chicken Karahi',
-        price: 330,
+        name: 'Salad',
+        description: 'Italian Caprese Salad',
+        price: 550,
         imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK9GJJN66tjJT3FgrSmQZubEIWpcDlLnHnmkvrTGexJ6ALkd64c-Eh1e8G4oDw8WUGAhk&usqp=CAU'),
+            'https://www.seriouseats.com/thmb/5kQKbm3V-zgurSr95PTITqaS_vs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-caprese-salad-recipe-hero-05_1-9ce2f9b0601c45279e07320f9548fa66.JPG'),
+
     FoodItemWidget(
-        name: 'Chapli Kabab',
-        description: 'Beef Chapli Kabab',
-        price: 150,
+        name: 'Bruschetta  ',
+        description: 'Giariniera Bruschetta',
+        price: 400,
         imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdTx6KA4XSW0a8ZGUv_n7_v_T7QhFSzZfpGfFfG9JAszadwyZr8MS07cFPbC--JFoPhw&usqp=CAU'),
-    FoodItemWidget(
-        name: 'Seekh Kabab',
-        description: 'Pak Seekh Kabab',
-        price: 100,
-        imageUrl:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwsLxKxAFoaL6mEjBxVuyamUKygpGARh56LhYwoZT_pfc_iulAAWFJlF15XdzcUAgaYnU&usqp=CAU'),
-    FoodItemWidget(
-        name: 'Chana Chaat',
-        description: 'Tasty Chana Chaat',
-        price: 100,
-        imageUrl:
-            'https://www.flourandspiceblog.com/wp-content/uploads/2022/04/IMG_7102-480x270.jpg'),
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgFcTIb89GyBMtmPW6m1uZbEdVq0JI9gM_1ilyZ2ynEYgFlVptasdXHU42L7s1SHTu9mQ&usqp=CAU'),
 
     // Add more food items as needed
   ];

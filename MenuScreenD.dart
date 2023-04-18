@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:untitled2/Screens/FoodMenu.dart';
 
-import 'FoodItemWidget.dart';
+import 'ChineseMenu.dart';
+import 'ItalianMenu.dart';
 
 class MenuScreenD extends StatefulWidget {
   @override
@@ -57,19 +58,82 @@ class _MenuScreenDState extends State<MenuScreenD> {
                 ),
               ),
             ),
+            Container(
+              height: 29,
+              child: Padding(
+                padding: const EdgeInsets.only(top: 8, left: 20),
+                child: Text(
+                  "Desi Food",
+                  style: TextStyle(
+                      color: Colors.amber,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
             SizedBox(
-              height: 12,
-              width: 12,
+              height: 5,
+              width: 0,
             ),
             Container(
-              height: 580,
+              height: 140,
               width: 500,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(20)),
-                color: Colors.amber.shade400,
               ),
               child: SafeArea(
                 child: FoodMenu(),
+              ),
+            ),
+            Container(
+              height: 29,
+              child: Padding(
+                padding: const EdgeInsets.only(top: 9, bottom: 1, left: 20),
+                child: Text(
+                  "Chinese Food",
+                  style: TextStyle(
+                      color: Colors.amber,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 7,
+            ),
+            Container(
+              height: 140,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(20)),
+              ),
+              child: SafeArea(
+                child: ChineseMenu(),
+              ),
+            ),
+            Container(
+              height: 29,
+              child: Padding(
+                padding: const EdgeInsets.only(top: 9, bottom: 1, left: 20),
+                child: Text(
+                  "Italian Food",
+                  style: TextStyle(
+                      color: Colors.amber,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 7,
+            ),
+            Container(
+              height: 140,
+              width: 500,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(20)),
+              ),
+              child: SafeArea(
+                child: ItalianMenu(),
               ),
             ),
           ],

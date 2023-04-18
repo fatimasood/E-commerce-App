@@ -28,19 +28,20 @@ class FoodItemWidget extends StatelessWidget {
             style: TextStyle(
                 color: Colors.black54,
                 fontWeight: FontWeight.bold,
-                fontSize: 15),
+                fontSize: 13),
           ),
           subtitle: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
                 description,
-                style: TextStyle(color: Colors.black54, fontSize: 13),
+                style: TextStyle(color: Colors.black54, fontSize: 10),
               ),
               Text(
                 '\$${price.toStringAsFixed(2)}',
                 style: TextStyle(
-                  fontWeight: FontWeight.bold,
+                  fontSize: 10,
+                  fontWeight: FontWeight.normal,
                 ),
               ),
             ],
